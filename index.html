@@ -84,78 +84,37 @@
 				<h3 class="module-title">Приложения</h3>
 				<div class="accordion accordion-flush" id="accordionApps">
 					<div class="accordion-item">
-					    <h2 class="accordion-header" id="flush-heading-apps-ios">
-					    	<button class="accordion-button collapsed lh0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-apps-ios" aria-expanded="false" aria-controls="flush-collapse-apps-ios">IOS</button>
-					    </h2>
-					    <div id="flush-collapse-apps-ios" class="accordion-collapse collapse" aria-labelledby="flush-heading-apps-ios" data-bs-parent="#accordionApps">
-						     <div class="accordion-body">
-							    <h3>Streisand</h3>
-							    Streisand - рекомендуемое приложение для IOS 14+
-							    <div class="list-group list-group-flush">
-									<a href="https://apps.apple.com/us/app/streisand/id6450534064" target="_blank" class="link list-group-item list-group-item-action">
-										<span>Скачать в AppStore</span>
-									  	<div class="link-icon">
-									    	<svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
-									    </div>
-									</a>
-									<a id="linkFix" href="https://google.com" target="_blank" class="link list-group-item list-group-item-action">
-										<span>Добавить подписку</span>
-									  	<div class="link-icon">
-									    	<svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
-									    </div>
-									</a>
-
-									<!-- For some reason js code doesn't work on Safari. The only quick fix I know -->
-									<script>
-										var a = document.getElementById('linkFix');
-										a.href = "streisand://import/" + window.location.href + "#Title";
-									</script>
-
-									<a href="streisand://aW1wb3J0L3JvdXRlOi8vWW5Cc2FYTjBNRERWQVFJREJBVUdIUjRmSUZWeWRXeGxjMTFrYjIxaGFXNU5ZWFJqYUdWeVZHNWhiV1ZlWkc5dFlXbHVVM1J5WVhSbFozbFVkWFZwWktJSEdOTUlDUW9MREExU2FYQmJiM1YwWW05MWJtUlVZV2RXWkc5dFlXbHVvRlprYVhKbFkzU3FEZzhRRVJJVEZCVVdGMTV5WldkbGVIQTZMaXBjTG5KMUpGOFFEMmRsYjNOcGRHVTZlVzkxZEhWaVpWOFFFR2RsYjNOcGRHVTZkR1ZzWldkeVlXMWRaMlZ2YzJsMFpUcGhjSEJzWlY1blpXOXphWFJsT21kdmIyZHNaVjVuWlc5emFYUmxPbmxoYm1SbGVGcG5aVzl6YVhSbE9uWnJYeEFYWjJWdmMybDBaVHBqWVhSbFoyOXllUzFuYjNZdGNuVmVaMlZ2YzJsMFpUcDBkMmwwWTJoZkVCQm5aVzl6YVhSbE9uZG9ZWFJ6WVhCdzBnZ1pHZ3hiYjNWMFltOTFibVJVWVdlaUd4eFlaMlZ2YVhBNmNuVmRaMlZ2YVhBNmNISnBkbUYwWlZab2VXSnlhV1JvQkNBRVBnUkRCRUlFT0FROUJETUFJRnBKVUU5dVJHVnRZVzVrWHhBa1FqUkNRemRHUWtNdE1FSTVPUzAwT1RNd0xVSXhSVU10TjBWRE1rVkdSRGRDTVRFM0FBZ0FFd0FaQUNjQUxBQTdBRUFBUXdCS0FFMEFXUUJnQUdFQWFBQnpBSUlBbEFDbkFMVUF4QURUQU40QStBRUhBUm9CSHdFckFTNEJOd0ZGQVV3QlhRRm9BQUFBQUFBQUFnRUFBQUFBQUFBQUlRQUFBQUFBQUFBQUFBQUFBQUFBQVk4PQ==" target="_blank" class="link list-group-item list-group-item-action">
-										<span>Добавить роутинг</span>
-									  	<div class="link-icon">
-									    	<svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
-									    </div>
-									</a>
-								</div>
-								
-							    <div class="instructions">
-							    	<h6 class="instructions-title">Инструкция по подключению</h6>
-								    <p>1. Нажмите Скачать в AppStore, чтобы установить приложение</p>
-								    <p>2. Нажмите Добавить подписку.</p>	
-								    <p>3. Перейдите Настройки -> Подписка и поставьте чекбокс Обновить при открытии.
-								    <img class="img-fluid rounded img-help" src="https://google.com/pic.png"></p>
-								    <p>4. Нажмите Добавить роутинг, в приложении нажмите Роутинг и поставьте рядом с ним галочку, нажмите сверху на чекбокс, чтобы применить правила роутинга. Роутинг - правила для перенаправления трафика, без него приложение может работать неправильно.<img class="img-fluid rounded img-help" src="https://google.com/pic.png"></p>
-								    <p>5. Осталось выбрать страну подключения и нажать Подключиться. Готово!<img class="img-fluid rounded img-help" src="https://google.com/pic.png"></p>
-							    </div>
-							</div>
-					    </div>
-					 </div>
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="flush-heading-apps-ios2">
-							<button class="accordion-button collapsed lh0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-apps-ios2" aria-expanded="false" aria-controls="flush-collapse-apps-ios2">IOS2</button>
-						</h2>
-						<div id="flush-collapse-apps-ios2" class="accordion-collapse collapse" aria-labelledby="flush-heading-apps-ios2" data-bs-parent="#accordionApps">
-							<div class="accordion-body">
-								<h3>V2Box - V2ray Client</h3>
-								V2Box - рекомендуемое приложение для IOS.
-								<div class="list-group list-group-flush">
-									<a href="https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690" target="_blank" class="link list-group-item list-group-item-action">
-										<span>Скачать в AppStore</span>
-										<div class="link-icon">
-											<svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
-										</div>
-									</a>
-									<a href="v2box://install-sub/?url={link}&name=Title" target="_blank" class="self-link link list-group-item list-group-item-action">
-										<span>Добавить подписку</span>
-										<div class="link-icon">
-											<svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
-										</div>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
+                        <h2 class="accordion-header" id="flush-heading-apps-ios">
+                            <button class="accordion-button collapsed lh0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-apps-ios" aria-expanded="false" aria-controls="flush-collapse-apps-ios">IOS</button>
+                        </h2>
+                        <div id="flush-collapse-apps-ios" class="accordion-collapse collapse" aria-labelledby="flush-heading-apps-ios" data-bs-parent="#accordionApps">
+                            <div class="accordion-body">
+                                <h3>V2Box - V2ray Client</h3>
+                                V2Box - рекомендуемое приложение для IOS.
+                                <div class="list-group list-group-flush">
+                                    <a href="https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690" target="_blank" class="link list-group-item list-group-item-action">
+                                        <span>Скачать в AppStore</span>
+                                        <div class="link-icon">
+                                            <svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
+                                        </div>
+                                    </a>
+                                    <a href="v2box://install-sub/?url={link}&name=Title" target="_blank" class="self-link link list-group-item list-group-item-action">
+                                        <span>Добавить подписку</span>
+                                        <div class="link-icon">
+                                            <svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="instructions">
+                                    <h6 class="instructions-title">Инструкция по подключению</h6>
+                                    <p>1. Нажмите "Скачать в AppStore", чтобы установить приложение.</p>
+                                    <p>2. Нажмите "Добавить подписку".</p>
+                                    <p>3. Перейдите в меню настроек, выберите "Подписки" и выполните синхронизацию.</p>
+                                    <img class="img-fluid rounded img-help" src="/image.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 				  	<div class="accordion-item">
 					    <h2 class="accordion-header" id="flush-heading-apps-android">
 					    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-apps-android" aria-expanded="false" aria-controls="flush-collapse-apps-android">Android</button>
@@ -200,7 +159,7 @@
 							    Hiddify-Next - рекомендуемое приложение для Windows
 
 							    <div class="list-group list-group-flush">
-									<a href="https://github.com/hiddify/hiddify-next/releases/latest/download/hiddify-windows-x64-setup.zip" target="_blank" class="link list-group-item list-group-item-action">
+									<a href="https://github.com/hiddify/hiddify-next/releases/latest/download/hiddify-windows-x64-setup.exe" target="_blank" class="link list-group-item list-group-item-action">
 										<span>Скачать с GitHub</span>
 									  	<div class="link-icon">
 									    	<svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
@@ -230,66 +189,30 @@
 					    </h2>
 					    <div id="flush-collapse-apps-macos" class="accordion-collapse collapse" aria-labelledby="flush-heading-apps-macos" data-bs-parent="#accordionApps">
 					    	<div class="accordion-body">
-							    <h3>Hiddify-Next</h3>
-							    Hiddify-Next - рекомендуемое приложение для macOS
-							    
-							    <div class="list-group list-group-flush">
-									<a href="https://github.com/hiddify/hiddify-next/releases/latest/download/hiddify-macos-universal.zip" target="_blank" class="link list-group-item list-group-item-action">
-										<span>Скачать с GitHub</span>
-									  	<div class="link-icon">
-									    	<svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
-									    </div>
-									</a>
-									<a href="hiddify://install-sub/?url={link}#Title" target="_blank" class="self-link link list-group-item list-group-item-action">
-										<span>Добавить подписку</span>
-									  	<div class="link-icon">
-									    	<svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
-									    </div>
-									</a>
-								</div>
-								
-							    <div class="instructions">
-							    	<h6 class="instructions-title">Инструкция по подключению</h6>
-								    <p>1. Нажмите Скачать с GitHub, чтобы установить приложение</p>
-								    <p>2. Смените язык на Русский, в качестве региона укажите Россия (это необходимо, чтобы настройки роутинга применились автоматически) и нажмите Начать <img class="img-fluid rounded img-help" src="https://google.com/pic.png"></p>
-								    <p>3. Нажмите Добавить подписку</p>
-								    <p>4. Нажмите подключиться. Готово!<img class="img-fluid rounded img-help" src="https://google.com/pic.png"></p>
-							    </div>
-							</div>
-					    </div>
-					 </div>
-					 <div class="accordion-item">
-					    <h2 class="accordion-header" id="flush-heading-apps-linux">
-					    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-apps-linux" aria-expanded="false" aria-controls="flush-collapse-apps-linux">Linux</button>
-					    </h2>
-					    <div id="flush-collapse-apps-linux" class="accordion-collapse collapse" aria-labelledby="flush-heading-apps-linux" data-bs-parent="#accordionApps">
-					    	<div class="accordion-body">
-							    <h3>Hiddify-Next</h3>
-							    Hiddify-Next - рекомендуемое приложение для Linux
-							    
-							    <div class="list-group list-group-flush">
-									<a href="https://github.com/hiddify/hiddify-next/releases/latest/download/hiddify-linux-x64.zip" target="_blank" class="link list-group-item list-group-item-action">
-										<span>Скачать с GitHub</span>
-									  	<div class="link-icon">
-									    	<svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
-									    </div>
-									</a>
-									<a href="hiddify://install-sub/?url={link}#Title" target="_blank" class="self-link link list-group-item list-group-item-action">
-										<span>Добавить подписку</span>
-									  	<div class="link-icon">
-									    	<svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
-									    </div>
-									</a>
-								</div>
-								
-							    <div class="instructions">
-							    	<h6 class="instructions-title">Инструкция по подключению</h6>
-								    <p>1. Нажмите Скачать с GitHub, чтобы установить приложение</p>
-								    <p>2. Смените язык на Русский, в качестве региона укажите Россия (это необходимо, чтобы настройки роутинга применились автоматически) и нажмите Начать <img class="img-fluid rounded img-help" src="https://google.com/pic.png"></p>
-								    <p>3. Нажмите Добавить подписку</p>
-								    <p>4. Нажмите подключиться. Готово!<img class="img-fluid rounded img-help" src="https://google.com/pic.png"></p>
-							    </div>
-							</div>
+                                <h3>V2Box - V2ray Client</h3>
+                                V2Box - рекомендуемое приложение для macOS.
+                                <div class="list-group list-group-flush">
+                                    <a href="https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690" target="_blank" class="link list-group-item list-group-item-action">
+                                        <span>Скачать в AppStore</span>
+                                        <div class="link-icon">
+                                            <svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
+                                        </div>
+                                    </a>
+                                    <a href="v2box://install-sub/?url={link}&name=Title" target="_blank" class="self-link link list-group-item list-group-item-action">
+                                        <span>Добавить подписку</span>
+                                        <div class="link-icon">
+                                            <svg class="icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="instructions">
+                                    <h6 class="instructions-title">Инструкция по подключению</h6>
+                                    <p>1. Нажмите "Скачать в AppStore", чтобы установить приложение.</p>
+                                    <p>2. Нажмите "Добавить подписку".</p>
+                                    <p>3. Перейдите в меню настроек, выберите "Подписки" и выполните синхронизацию.</p>
+                                    <img class="img-fluid rounded img-help" src="/image.png">
+                                </div>
+                            </div>
 					    </div>
 					 </div>
 				</div>
